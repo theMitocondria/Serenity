@@ -1,0 +1,148 @@
+.red{
+    background-color: red;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.h2{
+    font-size: 4.5vw;
+    display: inline;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-stack{
+    display:flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.about-img{
+    border-radius: 2.7rem;
+    width: 42vw;
+    height: 60vh;
+    margin:1rem;
+}
+.about-des{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight:550;
+}
+
+.about-btn{
+    border:none;
+    padding-left: 0.01%;
+    scale: 0.5;
+    height:100%;
+    background-color: inherit;
+    color: black;
+    z-index: 4;
+}
+
+.about-inline{
+    display: inline;
+    background-color: inherit;
+    padding-left:0;
+    margin-left:0;
+}
+
+.about-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: baseline;
+    width:100%;
+    padding: 0;
+}
+
+.about-shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.9rem;
+}
+
+.about-ot{
+    font-size: 3vw;
+    font-weight: 700;
+    padding-left: 10vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.full-padding{
+    padding: 4%;
+}
+
+.container-padding{
+    padding: 3%;
+}
+
+@media screen and (max-width: 650px) {
+
+    .full-padding{
+        padding: 0%;
+    }
+
+    .about-ot{
+        font-size: 10vw;
+        font-weight: 700;
+        padding-left: 10vw;
+    }
+
+    .container-padding{
+        padding: 0%;
+        padding-top: 3%;
+    }
+
+    .h2{
+        font-size: 3.6vw;
+    }
+
+    .about-btn{
+        scale: 0.6;
+    }
+
+    .about-des{
+        font-size: 1.2rem;
+    }
+    .info{
+        flex-direction: row;
+    }
+  }
+
+  @media screen and (max-width: 1083px) {
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2{
+        font-size: 6vw;
+    }
+
+    
+    .about-btn{
+        scale: 1;
+        padding: 4%;
+        width: 15%;
+    }
+
+    .about-img{
+        width: 65vw;
+        height: 70vmin;
+        scale: 1.1;
+    }
+    .about-shadow{
+        box-shadow: none;
+    }
+
+    .about-btn>svg{
+        width: 100%;
+        height: 100%;
+    }
+}

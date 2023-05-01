@@ -1,0 +1,84 @@
+.benaa{
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Book-title{
+    font-size: 3.4rem;
+    padding: 0.4rem 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.1rem;
+    padding-left:2rem;
+    font-weight: 620;
+}
+
+.book-main{
+    padding: 2%;
+}
+
+.img-card-size{
+    overflow: hidden;
+}
+
+.imgdiv{
+    width: 100%;
+    height:50%;
+    overflow: hidden;
+  }
+  
+  .titlecard{
+    max-height: 25%;
+    margin: 1%;
+    text-align: left;
+    text-transform:capitalize;
+    padding-bottom: 2%;
+    font-size: 120%;
+  }
+
+  .heightmax{
+    height: fit-content;
+  }
+
+  .titlecarddata{
+    text-align: left;
+
+  }
+
+
+  .ins{
+    overflow: hidden;
+    height: 55vh;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .ins:hover{
+    transform: translateY(10px);
+    scale: 1.05;
+  }
+  
+  .imgsize{
+      width: max-content;
+      height: 100%;
+      overflow: hidden;
+  }
+
+@media screen and (max-width:650px) {
+    .inline{
+        display:flex;
+        width: 80vw;
+    }
+    .extraspace{
+        padding-bottom: 15rem;
+    }
+    body{
+        margin-bottom: 25vh;
+    }
+    .benaa{
+        justify-content: center;
+    }
+}

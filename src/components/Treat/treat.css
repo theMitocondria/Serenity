@@ -1,0 +1,137 @@
+.frow{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.width-60vw{
+    width:60vw;
+    padding-right: 4%;
+    padding-left: 2%;
+}
+
+.italics{
+    font-style: italic;
+    margin-top: 3rem;
+}
+
+.pay-bt{
+    display: none;
+    color: hotpink;
+
+}
+
+.width-40vw{
+    width:40vw
+}
+
+.treat-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size :5.6vmax;
+    display: inline;
+}
+.right{
+    display: flex;
+    float:right;
+}
+
+.full-page{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-treat{
+    display: flex;
+    width: 96vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    height: 90%;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.borderr{
+    height: 72vh;
+    border-right:  2px solid black;
+}
+.info-treat{
+    font-size: 2vmax;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.payment-img{
+    width: 25vw;
+    height: 45vh;
+}
+
+@media screen and (max-width: 700px) {
+
+    .full-page{
+        overflow: scroll;
+        height: max-content;
+    }
+
+    .borderr{
+        border-right: none;
+    }
+
+    .main-treat{
+        flex-direction: column;
+        width: 100vw;
+
+    }
+
+    .width-60vw{
+        text-align: justify;
+        padding: 3%;
+        width: 90vw;
+        height: max-content;
+    }
+
+    .title-image{
+        display: none;
+    }
+    .width-40vw{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        padding: 3%;
+    }
+
+    .payment-img{
+        height: 65vw;
+        width: 75vw;
+    }
+
+    .pay-bt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50vw;
+    }
+
+    .pay_link{
+        text-decoration: none;
+        width: 70vw !important;
+        align-items: center !important;
+        padding: 2rem;
+        font-size: 3vw;
+    }
+
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .border-none{
+        border: 0px !important;
+    }
+}

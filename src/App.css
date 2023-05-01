@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+.borders{
+    margin : 3%;
+    margin-left : 6%;
+    margin-right: 6%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lefthome{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-5%);
+}
+
+.title-box{
+  margin: 2vh;
+}
+
+
+
+
+#treat-title , #title-home{
+  font-family: 'Shantell Sans', cursive;
+    font-size :5.6vmax;
+  display: inline;
+}
+
+.figsize{
+  font-size: 2.3vmin;
+}
+
+.title-image{
+  height: 6vmax;
+}
+
+.font-12rem{
+  font-size: 1.2rem;
+}
+
+.homeimg{
+  width: 100%;
+  min-width: 40vw;
+  min-height: 60vh;
+  height: 100%;
+}
+
+.hometext{
+  font-size: 1.5vmax;
+  /* font-family: 'Merienda', cursive; */
+  margin-left: 0;
+  padding-top: 2rem;
+}
+
+#link {
+  color: #996767;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  text-align: center;
+  letter-spacing: -0.3px;
+  border: 0;
+  background-color: rgb(245, 242, 238);
+  border-radius: 0.7rem;
+  box-shadow: rgba(34, 33, 33, 0.24) 0px 2px 6px;
+  margin: 2.5rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  /* max-width: 50%; */
+  width: max-content;
+  transition: 0.9s;
+}
+
+#link:hover , #btnmd:hover , #link-md , #link:hover  {
+  background-color: black;
+  scale: 1.05;
+}
+
+@media screen and (max-height: 480px) {
+
+
+  .borders {
+    margin: 1%;
+    transform: translateX(3vw);
+  }
+
+}
+
+
+/* css homepagemd.js */
+
+.marginmd{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.center{
+  text-align: center;
+}
+
+.blockquote-footermd{
+    text-align:center;
+    font-size: 3vw;
+    color: grey;
+}
+
+.homeimgmd{
+  width: 100%;
+  min-height: 35vh;
+  max-height: 49vh;
+}
+
+.fs-large{
+  font-size: 2.3vh;
+  font-style: italic;
+}
+
+#btnmd{
+  color: #996767;
+  
+  width: 50vw;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  text-align: center;
+  letter-spacing: -0.3px;
+  border: 0;
+  background-color: rgb(245, 242, 238);
+  border-radius: 0.7rem;
+  box-shadow: rgba(34, 33, 33, 0.24) 0px 2px 6px;
+  margin: 2.5rem;
+  margin-top: 1rem;
+  padding: auto;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  transition: 0.9s;
+}
+
+.image-card{
+  width: 70px;
+  height: 80px;
+}
+
+.card-style{
+  width: 23vw;
+  margin: auto;
+}
+
+
+
+.whatoffer-top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.none{
+  all: inherit;
+}
+
+
+
+
+.inline{
+  display: inline-flex;
+  max-width: 40vh;
+  border-radius: 2.3rem;
+  margin: 1vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.whatweoffer-floatright{
+  float:right
+}
+
+#link ,#link-md{
+  background-color: aliceblue;
+  color: #996767;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#link:hover{
+  color: white;
+}
+
+.disbox{
+  display: flex;
+  justify-content: center;
+}
